@@ -3,3 +3,33 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height:25vh;
+
+}
+.bg-dark {
+    background-color: #555b6e;
+}
+
+i, .navbar-text{
+    color:white;
+}
+
+
+/* .movieposter {
+    background-image:url("https://cdn.vox-cdn.com/thumbor/NnFmnig_lwDS-eRVF8LUFAKLtZU=/0x0:7200x4790/1520x0/filters:focal(0x0:7200x4790):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/23077144/UNF_UNIT_037.jpg");
+}
+.movieposter1 {
+    background-image:url("https://cdn.vox-cdn.com/thumbor/vUGDp6U8gxLclIwzdxxx33q3agg=/0x0:1000x714/1520x0/filters:focal(0x0:1000x714):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/23086684/image_asset.jpg");
+}
+.movieposter2 {
+    background-image:url("https://cdn.vox-cdn.com/thumbor/uVHGXVIA-6nWj77mZRmeFNPSEYw=/0x0:1920x806/1520x0/filters:focal(0x0:1920x806):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/23086924/Back_to_the_Outback_00_53_38_13.jpeg");
+}
+.movieposter3 {
+    background-image:url("https://cdn.vox-cdn.com/thumbor/2AE4wGNVH5DoOA4890CTKMpxLMA=/0x0:1616x1080/1520x0/filters:focal(0x0:1616x1080):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/23037139/3e303dc0_bac6_11e8_90f2_0a3447096d8a.jpg");
+}
+.movieposter4 {
+    background-image:url("https://cdn.vox-cdn.com/thumbor/tmYFLR33Um8j2CIn2RIRsYkpuns=/0x0:3600x1506/1520x0/filters:focal(0x0:3600x1506):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/23070051/LIS_302_FG_00010R.jpg");
+}
+.movieposter5 {
+    background-image:url("https://cdn.vox-cdn.com/thumbor/F0siECl_EINsAp0dsipSkeqsiHk=/0x0:6016x4016/1520x0/filters:focal(0x0:6016x4016):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/23087129/GRADED_Witcher_104_Unit_01245_RT.p3725wm7f.jpg");
+} */
