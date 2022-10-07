@@ -43,6 +43,10 @@ padding: 15px;
     padding:25px;
     background-color: #bee3db;
 }
+.container{
+    display:flex;
+    width:100vhh
+}
 
 .movieposter {
     display:flex;
@@ -119,46 +123,31 @@ padding: 15px;
 @media screen and (min-width: 768px) {
     section {
         display: inline-block;
-    }
-    .movieposter {
-        flex-direction: row; 
         justify-content: space-evenly;
-        display:inline-block;
-        width:33vh;
+        width:100vh;
+        flex-wrap:nowrap;
+        }
+    .movieposter {
+        width:50%;
+        margin:0;
     }
         
     .movieposter1 {
-        display:inline-block;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width:33vh
-
+        width:50%;
     }
     .movieposter2 {
-        flex-direction: row; 
-        justify-content: space-evenly;
-        display:inline-block;
-        width:33vh;
-
+        width:50%;
     }
     .movieposter3 {
-        flex-direction: row; 
-        justify-content: space-evenly;
-        display:inline-block;
-        width:33vh;
+        width:50%;
 
     }
     .movieposter4 {
-        flex-direction: row;
-        justify-content: space-evenly;
-        display:inline-block;
-        width:33vh;
+        width:50%;
+
     }
     .movieposter5 {
-        flex-direction: row;
-        justify-content: space-evenly;
-        display:inline-block;
-        width:33vh;
+        width:50%;
     }
     
     
