@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  background-color: darkslateblue;
+  height: 55vh;
+}
+
+.text {
+  color: burlywood;
+  font-size: 32px;
+}
+
+/*# sourceMappingURL=main.css.map */
