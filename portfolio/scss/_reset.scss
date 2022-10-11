@@ -4,25 +4,24 @@
 html { height:100%;
     font-family: 'Oswald';
 }
-body {
-    margin:0;
-    background-color: v.$fifthcolor;
-    width:100%;
-    height:100%;
-header {
- nav {
- color: v.$primarycolor;
- text-align: center;
- h2{
-    display:flex;
-    align-items: center;
-    justify-content: center;
- font-size: v.$fontsizeone;
-background-color: v.$fifthcolor;
-border-bottom: 2px solid #e1ca96;
-margin:25px;
-
- }
+    body {
+        margin:0;
+        background-color: v.$fifthcolor;
+        width:100%;
+        height:100%;
+            header {
+                    nav {
+                    color: v.$primarycolor;
+                    text-align: center;
+                        h2{
+                        display:flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: v.$fontsizeone;
+                        background-color: v.$fifthcolor;
+                        border-bottom: 2px solid #e1ca96;
+                        margin:25px;
+                        }
     .navigation
     {
         display: flex;
@@ -37,10 +36,9 @@ margin:25px;
 
 
 
-    }
-    
-}
-}
+    } 
+                        }
+                    }           
 }
 
 
@@ -56,7 +54,11 @@ margin:25px;
 
 
 }
-
+.container {
+h1 {
+    color:white;
+}
+}
 .primarycolor {
     color: white;
     padding:10px;
@@ -71,13 +73,4 @@ margin:25px;
     display: flex;
     justify-content: center;
 }
-main {
-    display:flex;
-    width:100%;
-    height:100%;
-section{
-    display:flex;
-    width:100%;
-    height:100%;
-}
-}
+
