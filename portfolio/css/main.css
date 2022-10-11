@@ -1,0 +1,63 @@
+/* Colors */
+/* Font sizes */
+html {
+  height: 100%;
+  font-family: "Oswald";
+}
+
+body {
+  margin: 0;
+  background-color: #434A42;
+  width: 100vw;
+}
+body header nav {
+  color: #E1CA96;
+  text-align: center;
+}
+body header nav h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+  background-color: #434A42;
+  border-bottom: 2px solid #e1ca96;
+  margin: 25px;
+}
+body header nav .navigation {
+  display: flex;
+  color: #E1CA96;
+  background-color: #434A42;
+  justify-content: space-evenly;
+  gap: 25px;
+  list-style-type: none;
+  padding: 0;
+  font-size: 28px;
+  margin: 10px;
+}
+
+.hero {
+  display: flex;
+  width: 100vw;
+  height: 25vh;
+  background-image: url("https://wealthofgeeks.com/wp-content/uploads/2022/06/Shutterstock_1804004536.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+.primarycolor {
+  color: white;
+  padding: 10px;
+  background-color: #626C66;
+  font-size: 14px;
+}
+
+.end {
+  color: #E1CA96;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=main.css.map */
