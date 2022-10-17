@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-rel="stylesheet"
-href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="scss/main.scss" rel="stylesheet">
     <title>Some random page</title>
 </head>
@@ -23,12 +20,12 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.cs
             <figcaption class="welcome__page__text">
                <p> To see how ...cotton ... is mage, made I mean...</p>
             </figcaption>
-            <!-- <h3 class="welcome__page__title">Welcome to nature</h3>
-            <p class="welcome__page__text"> A journey through time and sheep</p>   
-            <p class="welcome__page__text"> To see how ...cotton ... is mage, made I mean...</p>     -->
+            <a class="arrow" href="#about"></a>
         </figure>
+
+
     </header>
-    <main class="about">
+    <main class="about" id="about">
         <section>
             <h1 class="about__title">Träffa laget</h1>
         </section>
@@ -38,47 +35,62 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.cs
                 <figure>
                 <img class="about__profile__picture" src="../src/assets/profiles/Rakib_Square.png"/>
             </figure>
-                <figcaption class="about__profile__description">Rakib är vår vassaste node-utvecklare och håller ständigt ett öga på nya tekniker</figcaption>
+                <figcaption class="about__profile__description">
+                    <p class="about__profile__description__text"><i class="fa fa-quote-right"></i> Rakib är vår vassaste node-utvecklare och håller ständigt ett öga på nya tekniker 
+                    </p> </figcaption>
             </article>
         </section>
         <section class="about__profile">
             <article>
                 <h2 class="about__profile__name">Alexandra</h2>
+                <figure>
                 <img class="about__profile__picture" src="../src/assets/profiles/Alexandra_Square.png"/>
-                <span class="about__profile__description">Alexandra håller reda på alla överallt och ser till att det flyter</span>
+            </figure>
+                <figcaption class="about__profile__description"> 
+                    <p class="about__profile__description__text"><i class="fa fa-quote-right"></i> Alexandra håller reda på alla överallt och ser till att det flyter</p>
+                </figcaption>
             </article>
         </section>
         <section class="about__profile">
             <article>
                 <h2 class="about__profile__name">Lasse</h2>
+                <figure>
                 <img class="about__profile__picture" src="../src/assets/profiles/NoPerson_Square.png"/>
-                <span class="about__profile__description">Gör övriga saker... mestadels...</span>
+            </figure>
+            <figcaption class="about__profile__description">
+                <p class="about__profile__description__text"><i class="fa fa-quote-right"></i> Gör övriga saker... mestadels...</p>
+            </figcaption>
             </article>
         </section>
         <section class="about__profile">
             <article>
                 <h2 class="about__profile__name">Sebastian</h2>
+                <figure>
                 <img class="about__profile__picture" src="../src/assets/profiles/Sebastian_Square.png"/>
-                
-                <span class="about__profile__description">En av våra utbildare som har stor erfarenhet av ganska många saker</span>
+            </figure>
+           <figcaption class="about__profile__description"> 
+            <p class="about__profile__description__text"> <i class="fa fa-quote-right"></i>En av våra utbildare som har stor erfarenhet av ganska många saker </p>
+        </figcaption>
             </article>
         </section>
     </main>
-    <footer class="contact">
+    <footer class="contact" id="contact">
         <section>
+        <article>
           <p class="contact__information"> Tegel Consulting AB</p>
           <p class="contact__information"> Agatvägen 18</p>
           <p class="contact__information"> 168 60 Bromma</p>
-        </section>
-        <section>
+        </article>
+        <article>
           <p class="contact__information__details">info at tegelconsulting.se</p>
           <p class="contact__information__details">070-123 456 78</p>
-        </section>
+        </article>
         <section>
-          <p class="contact_information__socialmedia"><i class="bi bi-instagram"></i> Instagram</p>
-          <p class="contact_information__socialmedia"><i class="bi bi-twitter"></i> Twitter</p>
-          <p class="contact_information__socialmedia"><i class="bi bi-facebook"></i> Facebook</p>
-        </section>
+          <p class="contact_information__socialmedia"><i class="fa fa-instagram"></i> Instagram</p>
+          <p class="contact_information__socialmedia"><i class="fa fa-twitter"></i> Twitter</p>
+          <p class="contact_information__socialmedia"><i class="fa fa-facebook"></i> Facebook</p>
+        </article>
+    </section>
     </footer>
 </body>
 </html>
