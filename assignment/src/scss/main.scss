@@ -38,10 +38,45 @@ body {
     }
 
 }
+
+
+.scrollarrow_box {
+    position:absolute;
+    height: 100%;
+   font-size:45px;
+   display:flex;
+   align-items: flex-end;
+   flex-direction: row;
+    margin-bottom:10px;
+    color:white;
+ 
+ a:visited,a:focus,a:active { 
+    text-decoration: none; 
+    color:black;
+
+}
+
+}
+.scrollarrow_box_about{
+   font-size:45px;
+    margin-bottom:10px;
+    color:white;
+ 
+ a:visited,a:focus,a:active { 
+    text-decoration: none; 
+    color:black;
+
+}
+
+}
+
+
+
 .about {
 display:flex;
 flex-direction: column;
 text-align: center;
+position:static;
 .about__title{
     text-align:center;
 }
@@ -83,26 +118,34 @@ text-align: center;
 }
 
 .contact {
+    height:60vh;
     background-color: black;
     color:white;
     display:flex;
     justify-content: center;
     align-items: center ;
     flex-direction: column;
-    font-size:18px;
+    font-size:20px;
     padding:20px;
-    
+    .contact__test {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    height:100%;
+    margin:0;
+    text-align:left;
     .contact__information {
         margin:10px;
     }
     .contact__information__details {
-        margin-top:15px;
+    
+        margin:15px;
     }
     .contact__information__socialmedia {
         color:white;
         margin-top:10px;    
     }
-
+}
 }
 
 /*Hamburger meny*/
